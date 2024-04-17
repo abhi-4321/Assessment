@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/nav_activity"
+        android:icon="@drawable/activity"
+        android:title="Activity"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_goals"
+        android:icon="@drawable/goals"
+        android:title="Goals"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_camera"
+        android:icon="@drawable/camera"
+        android:title="Camera"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_feed"
+        android:icon="@drawable/feed"
+        android:title="Feed"
+        tools:ignore="HardcodedText" />
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"
+        tools:ignore="HardcodedText" />
+</menu>

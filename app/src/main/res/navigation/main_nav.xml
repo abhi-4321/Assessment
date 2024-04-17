@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/hostFragment">
+
+    <fragment
+        android:id="@+id/hostFragment"
+        android:name="com.abhinav.assessment.HostFragment"
+        android:label="fragment_host"
+        tools:layout="@layout/fragment_host" >
+        <action
+            android:id="@+id/action_hostFragment_to_foodInfoFragment"
+            app:destination="@id/foodInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/foodInfoFragment"
+        android:name="com.abhinav.assessment.ui.FoodInfoFragment"
+        android:label="FoodInfoFragment"
+        tools:layout="@layout/fragment_food_info"
+        />
+</navigation>
